@@ -16,3 +16,9 @@ enable the tracer and run your tests. Finally, use the result log -avaliable in 
 cp /sys/kernel/debug/tracing/trace data.txt
 python SpinLockTracer.py data.txt
 ```
+passing as argument the source file of data generated with Ftrace.
+
+## Result
+The final result generate a window of TKinter displaying the full records with colors and a caption that can be recorded.
+
+![](https://raw.githubusercontent.com/sebablasko/TraceDisplay/master/resultExample.png)
