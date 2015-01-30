@@ -19,6 +19,6 @@ python SpinLockTracer.py data.txt
 passing as argument the source file of data generated with Ftrace.
 
 ## Result
-The final result generate a window of TKinter displaying the full records with colors and a caption that can be recorded.
+The final result generate a window developed with TKinter, which display the full records from the input file with different colors, total amount of time running the captured functions and a general caption that can be recorded.
 
 ![](https://raw.githubusercontent.com/sebablasko/TraceDisplay/master/resultExample.png)
