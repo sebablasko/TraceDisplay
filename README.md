@@ -4,7 +4,7 @@ Python tool to generate simple charts of calls of spinlocks from logs of Ftrace
 ## Usage
 You must have captured the log of Ftrace with the function-graph option and displaying the timestamp in each record. To do this, configure Ftrace with:
 ```bash
-echo /sys/kernel/debug/tracing/duration-proc >trace_options
+echo /sys/kernel/debug/tracing/duration-proc > trace_options
 ```
 Enable the function graph as current tracer
 ```bash
